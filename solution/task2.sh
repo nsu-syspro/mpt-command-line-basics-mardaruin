@@ -1,4 +1,4 @@
-cd -
-find ./data -name "foo.txt" -exec cat {} \;
-find ./data -name "bar.txt" -exec cat {} \;
-find ./data -name "baz.txt" -exec cat {} \;
+cd data
+find ./ -name "foo.txt" -exec cat {} \;
+find ./ -name "bar.txt" -exec cat {} \;
+find ./ -name "baz.txt" -exec cat {} \;
